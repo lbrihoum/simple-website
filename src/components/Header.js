@@ -9,17 +9,6 @@ export default function Header() {
         <h1>{config.heading}</h1>
         <p>{config.subHeading}</p>
       </header>
-      <div className="container">
-        <ul className="actions special">
-          <li>
-            <Scroll type="id" element="one">
-              <a href="#one" className="button primary">
-                Begin
-              </a>
-            </Scroll>
-          </li>
-        </ul>
-      </div>
     </section>
   );
 }
